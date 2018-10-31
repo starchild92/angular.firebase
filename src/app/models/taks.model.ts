@@ -64,7 +64,7 @@ export class Taks {
 
 }
 
-interface TaskInterface {
+export interface TaskInterface {
     name: string;
     category: TasksCategories;
     priority: number;

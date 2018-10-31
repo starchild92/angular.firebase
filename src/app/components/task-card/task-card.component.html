@@ -1,0 +1,9 @@
+<div class="card">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-12">Name: {{ task.name }}</div>
+            <div class="col-12">Due Date: {{ task.due_date | date:'short' }}</div>
+            <div class="col-12">Priority: {{ task.priority }}</div>
+        </div>
+    </div>
+</div>

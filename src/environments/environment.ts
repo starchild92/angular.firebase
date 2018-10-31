@@ -14,3 +14,5 @@ export const environment = {
         messagingSenderId: "629370069172"
     }
 };
+
+export const ENDPOINT = 'https://us-central1-fir-crud-4a6fe.cloudfunctions.net/tasks'

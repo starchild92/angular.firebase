@@ -1,1 +1,17 @@
-<button (click)="addTask()">Add Taks</button>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col py-2 d-flex justify-content-end">
+            <button class="btn btn-primary" (click)="addTask()">Add Taks</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <h4>Pending Tasks</h4>
+            <app-task-card></app-task-card>
+        </div>
+        <div class="col-6">
+            <h4>Overdue Tasks</h4>
+            <app-task-card></app-task-card>
+        </div>
+    </div>
+</div>

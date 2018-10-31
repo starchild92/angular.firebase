@@ -1,0 +1,16 @@
+<div class="bd-callout bd-callout-violet mb-3">
+    <span class="text-dark w-100 text-right font-weight-bold">{{ title }}</span>
+</div>
+<mat-dialog-content class="mx-1">
+    <p class="text-center">
+        {{ content }}
+    </p>
+</mat-dialog-content>
+<mat-dialog-actions class="mb-1">
+    <div class="col text-center p-0" *ngIf="btnDisagree">
+        <button type="button" class="btn btn-danger" (click)="desagree()">{{ btnDisagree }}</button>
+    </div>
+    <div class="col text-center p-0">
+        <button type="button" class="btn btn-green" (click)="agree()">{{ btnAgree }}</button>
+    </div>
+</mat-dialog-actions>

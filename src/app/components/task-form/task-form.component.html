@@ -1,0 +1,11 @@
+<form class="w-100" [formGroup]="form">
+    <mat-form-field class="w-100">
+        <input matInput type="text" formControlName="name" placeholder="Task" value="">
+    </mat-form-field>
+
+    <div class="row">
+        <div class="col text-center">
+            <button class="btn btn-primary col-6" (click)="save()">Save</button>
+        </div>
+    </div>
+</form>
